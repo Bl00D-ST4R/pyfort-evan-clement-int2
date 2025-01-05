@@ -55,5 +55,5 @@ def choose_player(team):
     list=[1,2,3]
     while c not in list :
         c=int(input("Please choose a valid player"))
-    return equipe[c-1]
+    return team[c-1]
 
