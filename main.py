@@ -7,12 +7,12 @@ import pere_fouras_challenge as pc
 
 def game():
     ut.introduction()
-    ut.compose_equipe()
+    e=ut.compose_equipe()
     keys=0
     while keys != 3:
         n=ut.challenges_menu()
         a=None
-        player=ut.choose_player()
+        player=ut.choose_player(e)
         if n == 0 :
             a=mc.math_challenge()
         if n == 1 :
