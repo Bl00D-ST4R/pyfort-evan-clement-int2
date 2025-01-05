@@ -17,5 +17,11 @@ To play, you have to launch the game() function (located in main.py) in the cons
 Game algorithm : 
 First you are briefly introduced to the game, then compose your team of players.
 When you have finished, you have to choose a player and a type of challenge to play
+Then you play the challenge and if you win you get a key
+Once you have 3 keys, you are taken to the treasure room to solve the final challenge
+If you win, congratulations ! The game is over and yeah you won
+If you don't, then sadly you lost but you can replay !
+For details on how each function works/is implemented, please refers to the comments in the code.
 
+Have fun !
 
